@@ -384,7 +384,7 @@ var setREVStartSize = function() {
 
     jQuery(document).ready(function(){
         jQuery(".countdown").countdown({
-            date: "january 1 2016 23:23:23", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
-            format: "on" // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
+            date: "March 22 2023 23:23:23", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
+            format: "on (03:07:52)" // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
         });
     });

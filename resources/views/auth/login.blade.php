@@ -20,25 +20,25 @@
         <script src="js/respond.min.js"></script>
         <![endif]-->
         <title>My Account</title>
-        <link rel='stylesheet' id='contact-form-7-css'  href='/html/css/contact-form-7.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='rs-plugin-settings-css'  href='/html/css/revslider.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='select2-css'  href='/html/css/woocommerce-select2.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='woocommerce-layout-css'  href='/html/css/woocommerce-layout.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/html/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
-        <link rel='stylesheet' id='woocommerce-general-css'  href='/html/css/woocommerce.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='bootstrap-css-css'  href='/html/css/bootstrap.min.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='awesome-css'  href='/html/font/css/font-awesome.min.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='contact-form-7-css'  href='/css/contact-form-7.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='rs-plugin-settings-css'  href='/css/revslider.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='select2-css'  href='/css/woocommerce-select2.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='woocommerce-layout-css'  href='/css/woocommerce-layout.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/css/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+        <link rel='stylesheet' id='woocommerce-general-css'  href='/css/woocommerce.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='bootstrap-css-css'  href='/css/bootstrap.min.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='awesome-css'  href='/font/css/font-awesome.min.css' type='text/css' media='all' />
         <link rel='stylesheet' id='Varela-css'  href='http://fonts.googleapis.com/css?family=Varela' type='text/css' media='all' />
         <link rel='stylesheet' id='Rouge-css'  href='http://fonts.googleapis.com/css?family=Rouge+Script' type='text/css' media='all' />
-        <link rel='stylesheet' id='owl.carousel-css'  href='/html/css/owl.carousel.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='owl.theme-css'  href='/html/css/owl.theme.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='flexslider-css'  href='/html/css/flexslider.css' type='text/css' media='screen' />
-        <link rel='stylesheet' id='style-css'  href='/html/style.css' type='text/css' media='all' />
-        <link rel='stylesheet' id='style-inline-css'  href='/html/style-inline.css' type='text/css' media='all' />
-        <script type='text/javascript' src='/html/js/jquery/jquery.js'></script>
-        <script type='text/javascript' src='/html/js/jquery/jquery-migrate.min.js'></script>
-        <script type='text/javascript' src='/html/js/revslider/jquery.themepunch.tools.min.js'></script>
-        <script type='text/javascript' src='/html/js/revslider/jquery.themepunch.revolution.min.js'></script>
+        <link rel='stylesheet' id='owl.carousel-css'  href='/css/owl.carousel.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='owl.theme-css'  href='/css/owl.theme.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='flexslider-css'  href='/css/flexslider.css' type='text/css' media='screen' />
+        <link rel='stylesheet' id='style-css'  href='/style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='style-inline-css'  href='/style-inline.css' type='text/css' media='all' />
+        <script type='text/javascript' src='/js/jquery/jquery.js'></script>
+        <script type='text/javascript' src='/js/jquery/jquery-migrate.min.js'></script>
+        <script type='text/javascript' src='/js/revslider/jquery.themepunch.tools.min.js'></script>
+        <script type='text/javascript' src='/js/revslider/jquery.themepunch.revolution.min.js'></script>
         <script type="text/javascript">
             var themeprefix = 'plazart';
             var imgpath = 'images/';
@@ -48,7 +48,7 @@
         <![endif]-->
     </head>
     <body id="bd" class="page page-id-10 page-template-default woocommerce-account woocommerce-page  wpb-js-composer js-comp-ver-4.4.2 vc_responsive tribe-theme-everline page-template-page-php">
-        <div class="livedemo hidden">
+        <div class="livedemo ">
             <h6 class="live_title">
                 <em>Skill style</em>
                 <span class="live_icon">
@@ -59,31 +59,31 @@
                 <span class="live-t">Color</span>
                 <ul>
                     <li class="home1 iconclick" data-option-value="themecolor1">
-                        <img src="/html/images/livedemo/homecolor1.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor1.jpg" alt="color 2">
                     </li>
                     <li class="home2 iconclick" data-option-value="themecolor2">
-                        <img src="/html/images/livedemo/homecolor2.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor2.jpg" alt="color 2">
                     </li>
                     <li class="home3 iconclick" data-option-value="themecolor3">
-                        <img src="/html/images/livedemo/homecolor3.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor3.jpg" alt="color 2">
                     </li>
                     <li class="home4 iconclick" data-option-value="themecolor4">
-                        <img src="/html/images/livedemo/homecolor4.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor4.jpg" alt="color 2">
                     </li>
                     <li class="home5 iconclick" data-option-value="themecolor5">
-                        <img src="/html/images/livedemo/homecolor5.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor5.jpg" alt="color 2">
                     </li>
                     <li class="home6 iconclick" data-option-value="themecolor6">
-                        <img src="/html/images/livedemo/homecolor6.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor6.jpg" alt="color 2">
                     </li>
                     <li class="home7 iconclick" data-option-value="themecolor7">
-                        <img src="/html/images/livedemo/homecolor7.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor7.jpg" alt="color 2">
                     </li>
                     <li class="home8 iconclick" data-option-value="themecolor8">
-                        <img src="/html/images/livedemo/homecolor8.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor8.jpg" alt="color 2">
                     </li>
                     <li class="home9 iconclick" data-option-value="themecolor">
-                        <img src="/html/images/livedemo/homecolor9.jpg" alt="color 2">
+                        <img src="/images/livedemo/homecolor9.jpg" alt="color 2">
                     </li>
                 </ul>
                 <span class="live-t">Site Layout</span>
@@ -98,43 +98,43 @@
                 <div class="live-bkcontro">
                     <span class="live-bk">Background</span>
                     <ul class="live-patterns">
-                        <li data-option-text="/html/patterns/60degree_gray.png">
-                            <img src="/html/images/patterns/60degree_gray.png" alt="patterns 2">
+                        <li data-option-text="/patterns/60degree_gray.png">
+                            <img src="/images/patterns/60degree_gray.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/absurdidad.png">
-                            <img src="/html/images/patterns/absurdidad.png" alt="patterns 2">
+                        <li data-option-text="/patterns/absurdidad.png">
+                            <img src="/images/patterns/absurdidad.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/always_grey.png">
-                            <img src="/html/images/patterns/always_grey.png" alt="patterns 2">
+                        <li data-option-text="/patterns/always_grey.png">
+                            <img src="/images/patterns/always_grey.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/back_pattern.png">
-                            <img src="/html/images/patterns/back_pattern.png" alt="patterns 2">
+                        <li data-option-text="/patterns/back_pattern.png">
+                            <img src="/images/patterns/back_pattern.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/black_mamba.png">
-                            <img src="/html/images/patterns/black_mamba.png" alt="patterns 2">
+                        <li data-option-text="/patterns/black_mamba.png">
+                            <img src="/images/patterns/black_mamba.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/silver_scales.png">
-                            <img src="/html/images/patterns/silver_scales.png" alt="patterns 2">
+                        <li data-option-text="/patterns/silver_scales.png">
+                            <img src="/images/patterns/silver_scales.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/norwegian_rose.png">
-                            <img src="/html/images/patterns/norwegian_rose.png" alt="patterns 2">
+                        <li data-option-text="/patterns/norwegian_rose.png">
+                            <img src="/images/patterns/norwegian_rose.png" alt="patterns 2">
                         </li>
-                        <li data-option-text="/html/patterns/tiny_grid.png">
-                            <img src="/html/images/patterns/tiny_grid.png" alt="patterns 2">
+                        <li data-option-text="/patterns/tiny_grid.png">
+                            <img src="/images/patterns/tiny_grid.png" alt="patterns 2">
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div id="tzloadding">
-            <img class="loadding_img" src="/html/images/loadding.GIF" alt="images">
+            <img class="loadding_img" src="/images/loadding.GIF" alt="images">
         </div>
         <div class="everline_boxed">
             <header class="tz-header tz-header-page">
                 <div class="container">
                     <h3 class="tzlogo pull-left">
                         <a class="pull-left tz_logo" href="#" title="Everline">
-                            <img class="logo_lager" src="/html/images/logo.png" alt="Everline" />
+                            <img class="logo_lager" src="/images/logo.png" alt="Everline" />
                         </a>
                     </h3>
                     <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
@@ -300,7 +300,7 @@
                                 <a href="shop.html">Shop</a>
                                 <ul class="sub-menu non_mega_menu">
                                     <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                        <a href="/html/cart.html">Cart</a>
+                                        <a href="/cart.html">Cart</a>
                                     </li>
                                     <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page">
                                         <a href="checkout.html">Checkout</a>
@@ -321,7 +321,7 @@
                 </div>
             </header>
             <div class="tzform-search">
-                <img class="tzcontro_search" src="/html/images/icon_search_delete.png" alt="icon search">
+                <img class="tzcontro_search" src="/images/icon_search_delete.png" alt="icon search">
                 <form method="get" id="searchform" action="/">
                     <label class="icon-search">&nbsp;</label>
                     <label for="s" class="assistive-text assistive-tzsearch">Search</label>
@@ -344,29 +344,35 @@
                                     <div class="woocommerce">
                                         <h2>Login</h2>
 
-                                            @error('loginError')
-                                                <div class="alret alert-danger">
-                                                    <strong>Error</strong>
-                                                     <p>{{ $message }}</p>
-                                                </div>
-                                            @enderror
+                                            
 
                                         <form method="post" class="login">
+
+                                            @error('loginError')
+                                            <div >
+                                                <strong style="color:rgb(249, 90, 90)">Sistem belum mengenal inputan tersebut, mungkin</strong>
+                                                 <p style="color:rgb(249, 90, 90)">{{ $message }}</p>
+                                            </div>
+                                        @enderror
                                              @csrf
                                             <p class="form-row form-row-wide">
                                                 <label for="username">Username or email address <span class="required">*</span></label>
+                                                @error('email')
+                                                <small style="color:rgb(249, 90, 90)">{{ $message }}</small>
+                                                @enderror
                                                 <input type="text" class="input-text" name="email" id="username" value="" placeholder="Email"/>
                                             </p>
-                                                {{-- @error('email')
-                                                <small style="color:red">{{ $message }}</small>
-                                                @enderror --}}
+                                               
                                             <p class="form-row form-row-wide">
                                                 <label for="password">Password <span class="required">*</span></label>
+                                                @error('password')
+                                                <small style="color:rgb(249, 90, 90)">{{ $message }}</small>
+                                                @enderror
                                                 <input class="input-text" type="password" name="password" id="password" placeholder="Password" />
                                             </p>
-                                                {{-- @error('password')
-                                                <small style="color:red">{{ $message }}</small>
-                                                @enderror --}}
+                                                
+
+                                              
                                             <p class="form-row">
                                                 <input type="hidden" id="_wpnonce" name="_wpnonce" value="123"/>
                                                 <input type="hidden" name="_wp_http_referer" value="/everline/my-account/" />		
@@ -406,7 +412,7 @@
                             <aside id="widget_logo-2" class="widget_widget_logo widget">
                                 <div class="tz_logo_widget">
                                     <a href="#">
-                                        <img src="/html/images/EverlineTheme.png" alt="Everline">
+                                        <img src="/images/EverlineTheme.png" alt="Everline">
                                     </a>
                                     <p>All right server. Copyright by  TemPlaza.com</p>
                                 </div>
@@ -426,27 +432,27 @@
                     </div><!--end class row-->
                 </div><!--end class container-->
             </footer>
-            <script type='text/javascript' src='/html/js/contact-form-7/jquery.form.min.js'></script>
-            <script type='text/javascript' src='/html/js/contact-form-7/scripts.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/add-to-cart.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/select2.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/jquery.blockUI.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/woocommerce.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/country-select.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/address-i18n.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/checkout.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/jquery.cookie.min.js'></script>
-            <script type='text/javascript' src='/html/js/woocommerce/cart-fragments.min.js'></script>
-            <script type='text/javascript' src='/html/js/bootstrap.min.js'></script>
-            <script type='text/javascript' src='/html/js/jquery.parallax-1.1.3.js'></script>
-            <script type='text/javascript' src='/html/js/owl.carousel.js'></script>
-            <script type='text/javascript' src='/html/js/jquery.flexslider.js'></script>
-            <script type='text/javascript' src='/html/js/off-canvas.js'></script>
-            <script type='text/javascript' src='/html/js/jquery.jplayer.min.js'></script>
-            <script type='text/javascript' src='/html/js/jplayer.playlist.min.js'></script>
-            <script type='text/javascript' src='/html/js/countdown.js'></script>
-            <script type='text/javascript' src='/html/js/custom.js'></script>
-            <script type='text/javascript' src='/html/js/everlinecookie.js'></script>
+            <script type='text/javascript' src='/js/contact-form-7/jquery.form.min.js'></script>
+            <script type='text/javascript' src='/js/contact-form-7/scripts.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/add-to-cart.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/select2.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/jquery.blockUI.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/woocommerce.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/country-select.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/address-i18n.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/checkout.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/jquery.cookie.min.js'></script>
+            <script type='text/javascript' src='/js/woocommerce/cart-fragments.min.js'></script>
+            <script type='text/javascript' src='/js/bootstrap.min.js'></script>
+            <script type='text/javascript' src='/js/jquery.parallax-1.1.3.js'></script>
+            <script type='text/javascript' src='/js/owl.carousel.js'></script>
+            <script type='text/javascript' src='/js/jquery.flexslider.js'></script>
+            <script type='text/javascript' src='/js/off-canvas.js'></script>
+            <script type='text/javascript' src='/js/jquery.jplayer.min.js'></script>
+            <script type='text/javascript' src='/js/jplayer.playlist.min.js'></script>
+            <script type='text/javascript' src='/js/countdown.js'></script>
+            <script type='text/javascript' src='/js/custom.js'></script>
+            <script type='text/javascript' src='/js/everlinecookie.js'></script>
         </div>
     </body>
 </html>

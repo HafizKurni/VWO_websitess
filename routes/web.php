@@ -14,12 +14,13 @@ use App\Http\Controllers\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/index', [HomeController::class, 'index']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/contact', [HomeController::class, 'contact']);
-Route::get('/portfolio', [HomeController::class, 'portfolio']);
-Route::get('/services', [HomeController::class, 'services']);
-Route::get('/team', [HomeController::class, 'team']);
-Route::get('/testimonials', [HomeController::class, 'testimonials']);
+Route::get('/gallery', [HomeController::class, 'gallery']);
+Route::get('/vendor', [HomeController::class, 'vendor']);
+Route::get('/shop', [HomeController::class, 'shop']);
+// Route::get('/testimonials', [HomeController::class, 'testimonials']);
 
 // Auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
