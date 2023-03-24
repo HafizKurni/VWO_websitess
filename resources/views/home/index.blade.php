@@ -197,20 +197,25 @@
             <!-- START REVOLUTION SLIDER 4.6.0 fullscreen mode -->
             <div id="rev_slider_3_1_wrapper" class="rev_slider_wrapper fullscreen-container">
             <div id="rev_slider_3_1" class="rev_slider fullscreenbanner">
-            <ul>
+                <ul>
             <!-- SLIDE  -->
-            <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
-                <!-- MAIN IMAGE -->
-                <img src="http://placehold.it/1920x923"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+            @foreach ($sliders as $index => $slider )
+                     <li data-transition="fade" data-slotamount="7" data-masterspeed="600"  data-saveperformance="off" >
+                    <img src="/image/{{$slider->imageBesar}}"  alt="everline"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                      
                 <!-- LAYERS -->
+                     </li>
+                     @endforeach
+                </ul>
             </div>
+
+            
             <!-- END REVOLUTION SLIDER -->
             </div>
             </div>
             </div>
             </div>
             </div>
-
             <div class="vc_row wpb_row vc_row-fluid vc_custom_1423129790882">
                 <div class="nocontainer">
                     <div class="vc_col-sm-12 wpb_column vc_column_container ">
@@ -219,9 +224,9 @@
                                 <div class="container">
                                     <h3 class="title_ourstory">OUR STORY</h3>
                                     <div class="ourstory_content">
-                                        <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
-                                        <p>The Head To Toe Bride is a workshop in Dayton, OH that a good photographer friend of mine is putting on. He asked me to do a quick logo and website for the workshop to give me details as to what it was. After a week this is what I had for him, you can see the website live at.</p>
-                                        <p>No workshop is complete without an amazing team of people, most of whom are usually behind the scenes. These amazing sponsors are contributing in so many different ways, and we could not be more excited! Let’s just say, each student at the Head to Toe Bride Workshop is in for some pretty sweet swag bags.</p>
+                                        @foreach ($sliders as $index => $slider )
+                                        <p>{{$slider->description}}</p>
+                                        @endforeach
                                     </div>
                                 </div>
                             </div>
@@ -232,20 +237,25 @@
             <div class="vc_row wpb_row vc_row-fluid vc_custom_1423198729821">
                 <div class="container">
                     <div class="row">
+                        @foreach ($sliders as $index => $slider )
                         <div class="vc_col-sm-12 vc_col-lg-4 vc_col-md-4 wpb_column vc_column_container ">
                             <div class="wpb_wrapper">
+                                
                                 <div class="tzintroduct">
-                                    <h3>WEDDING DECOR</h3>
+                                    <h3>{{$slider->titleKecil}}</h3>
                                     <div class="tzintroduct-img">
-                                        <img src="http://placehold.it/370x370" class="attachment-full" alt="introduct1" />
+                                        <img src="/image/{{$slider->imageKecil}}" class="attachment-full" alt="introduct1" />
                                     </div>
-                                    <p>Thank you for choosing CosmoThemes and purchasing one of our Premium WordPress Themes your choice is greatly appreciated!</p>
+                                    <p>{{$slider->descriptionKecil}}</p>
                                 </div>
                             </div>
+                        
                         </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
+            
 
             <footer class="tz-footer">
                 <div class="container">
