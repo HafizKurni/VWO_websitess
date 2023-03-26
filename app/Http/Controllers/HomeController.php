@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
 use App\Models\Slider;
+use App\Models\Service;
+use App\Models\Testimonial;
 
 class HomeController extends Controller
 {
@@ -22,17 +25,21 @@ class HomeController extends Controller
 
     public function vendor()
     {
-        return view('home.vendor');
+        $testimonials = Testimonial::all();
+        return view('home.vendor', compact('testimonials'));
     }
 
     public function gallery()
     {
-        return view('home.gallery');
+        $services = Service::all();
+
+        return view('home.gallery', compact('services'));
     }
 
-    public function shop()
+    public function paket()
     {
-        return view('home.shop');
+        $portfolios = Portfolio::all();
+        return view('home.paket', compact('portfolios'));
     }
 
     public function about()

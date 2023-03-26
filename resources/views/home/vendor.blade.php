@@ -132,55 +132,55 @@
     <img class="loadding_img" src="images/loadding.GIF" alt="images">
 </div>
 <div class="everline_boxed">
- <header class="tz-header tz-header2">
-                                <div class="wrapbox">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-5-custom">
-                                                <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
-                                                    <i class="fa fa-bars"></i>
-                                                </button>
-                                                <nav class="pull-right">
-                                                    <ul id="menu-menu-left" class="tz-menu nav-collapse themeple_megemenu">
-                                                        <li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home">
-                                                            <a href="index">Home</a>
-                                                        </li>
-                                                        <li id="menu-item-403" class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                                                            <a href="gallery">Gallery</a>
-                                                        </li>
-                                                        <li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="vendor">Vendor</a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                            </div>
-                                            <div class="col-md-2-custom">
-                                                <h3 class="tzlogo">
-                                                    <a href="index" title="Everline">
-                                                        <img src="images/Everline_logo.png" alt="Everline">
-                                                    </a>
-                                                </h3>
-                                            </div>
-                                            <div class="col-md-5-custom">
-                                                <nav class="pull-left">
-                                                    <ul id="menu-menu-right" class="tz-menu nav-collapse themeple_megemenu">
-                                                        <li id="menu-item-405" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat">
-                                                            <a href="shop">Paket</a>
-                                                        </li>
-                                                        <li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="contact">Contact Us</a>
-                                                        </li>
-                                                        <li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page">
-                                                            <a href="about">About</a>
-                                                        </li>
-                                                    </ul>
-                                                </nav>
-                                                {{-- <button class="tz-search pull-left"><i class="fa fa-search"></i></button> --}}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </header>
+    <header class="tz-header tz-header2">
+        <div class="wrapbox">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5-custom">
+                        <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <nav class="pull-right">
+                            <ul id="menu-menu-left" class="tz-menu nav-collapse themeple_megemenu">
+                                <li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home">
+                                    <a href="index">Home</a>
+                                </li>
+                                <li id="menu-item-403" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                                    <a href="gallery">Gallery</a>
+                                </li>
+                                <li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="vendor">Vendor</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-2-custom">
+                        <h3 class="tzlogo">
+                            <a href="index" title="Everline">
+                                <img src="images/Everline_logo.png" alt="Everline">
+                            </a>
+                        </h3>
+                    </div>
+                    <div class="col-md-5-custom">
+                        <nav class="pull-left">
+                            <ul id="menu-menu-right" class="tz-menu nav-collapse themeple_megemenu">
+                                <li id="menu-item-405" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat">
+                                    <a href="paket">Paket</a>
+                                </li>
+                                <li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="contact">Contact Us</a>
+                                </li>
+                                <li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page">
+                                    <a href="about">About</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        {{-- <button class="tz-search pull-left"><i class="fa fa-search"></i></button> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 <div class="tzform-search">
     <img class="tzcontro_search" src="images/icon_search_delete.png" alt="icon search">
     <form method="get" id="searchform" action="#">
@@ -192,7 +192,7 @@
 </div>
 <div class="tzdefault_title">
     <div class="container">
-        <h1>Portfolio 3 columns</h1>
+        <h1>Vendor</h1>
     </div>
 </div>
 <div class="tzPortfolio-wrap">
@@ -201,258 +201,26 @@
             <div class="col-md-12">
                 <div class="tzportfolio-line line3">
                     <div class="tzPortfolio tzportfolio-style2">
+                    @foreach ($testimonials as $index => $testimonial )
+
                     <div id="post-320" class="post-320 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
                         <div class="portfolio-item2">
                             <div class="portfolio-item portfolio-padding">
                                 <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio38" />
+                                    <img src="/image/{{$testimonial->image}}" class="attachment-full wp-post-image" alt="portfolio38" />
                                 </div>
                                 <div class="tzitem-content">
                                     <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Sed efficitu</a></h3>
+                                    <h3><a href="#">{{$testimonial->title}}</a></h3>
                                     <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
+                                        <span>{{$testimonial->description}}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="post-319" class="post-319 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio37" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Morbi eleifend</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-318" class="post-318 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio36" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Quisque nec</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-317" class="post-317 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio35" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Nulla ac magna</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-316" class="post-316 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio33" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Vestibulum varius</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-315" class="post-315 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio34" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Purus ut</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-314" class="post-314 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio32" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Nullam aliquam</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-313" class="post-313 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio31" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Curabitur euismod in</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                    <div id="post-303" class="post-303 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio3" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Quisque viverra</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-303" class="post-303 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio3" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Quisque viverra</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-303" class="post-303 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio3" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Quisque viverra</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="post-303" class="post-303 portfolio type-portfolio status-publish has-post-thumbnail hentry element gird-item3">
-                        <div class="portfolio-item2">
-                            <div class="portfolio-item portfolio-padding">
-                                <div class="item-image">
-                                    <img src="http://placehold.it/370x270" class="attachment-full wp-post-image" alt="portfolio3" />
-                                </div>
-                                <div class="tzitem-content">
-                                    <i class="fa fa-heart-o tzicon"></i>
-                                    <h3><a href="#">Quisque viverra</a></h3>
-                                    <div class="tzmeta">
-                                        <span>February 9, 2015</span>
-                                        <span class="tztag">
-                                             /
-                                            <a href="#" rel="tag">NewYork</a>,
-                                            <a href="#" rel="tag">USA</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                    @endforeach
                 </div><!--end class tzPortfolio-->
                 </div>
                 <div class="tzpagenavi">

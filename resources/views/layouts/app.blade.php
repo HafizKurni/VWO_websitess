@@ -81,48 +81,34 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <li class="nav-item">
                 <a href="/admin/sliders" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Sliders</p>
+                  <p>Data Home</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/services" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Services</p>
+                  <p>Data Gallery</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/testimonials" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Testimonials</p>
+                  <p>Data Vendor</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/portfolios" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Portfolios</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/admin/clients" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Clients</p>
+                  <p>Data Paket</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/admin/teams" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Teams</p>
+                  <p>Data About</p>
                 </a>
               </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a href="/admin/about" class="nav-link">
-              <i class="nav-icon fas fa-user"></i>
-              <p>
-                Tentang
-              </p>
-            </a>
           </li>
           <li class="nav-item">
             <a href="/admin/contact" class="nav-link">

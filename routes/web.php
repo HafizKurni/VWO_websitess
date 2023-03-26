@@ -19,7 +19,7 @@ Route::get('/about', [HomeController::class, 'about']);
 Route::get('/contact', [HomeController::class, 'contact']);
 Route::get('/gallery', [HomeController::class, 'gallery']);
 Route::get('/vendor', [HomeController::class, 'vendor']);
-Route::get('/shop', [HomeController::class, 'shop']);
+Route::get('/paket', [HomeController::class, 'paket']);
 // Route::get('/testimonials', [HomeController::class, 'testimonials']);
 
 // Auth

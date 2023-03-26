@@ -192,7 +192,7 @@
             </div>
             <div class="tzdefault_title">
                 <div class="container">
-                    <h1>Portfolio Mansory</h1>
+                    <h1>Paket</h1>
                 </div>
             </div>
             <div class="tzPortfolio-wrap">
@@ -200,9 +200,27 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="tzPortfolio tzportfolio-mansory">
+                                @foreach ($portfolios as $index => $portfolio)
+                                    
                                 <div id="post-332" class="post-332 portfolio type-portfolio status-publish has-post-thumbnail hentry element tzmansory">
                                     <div class="tzmansory-image">
-                                        <img src="http://placehold.it/1170x400" class="attachment-full wp-post-image" alt="bk_video" />
+                                        <img src="/image/{{$portfolio->image}}" class="attachment-full wp-post-image" alt="bk_video" />
+                                    </div>
+                                    <div class="masonry-meta">
+                                        <div class="masonry-left pull-left">
+                                            <i class="fa fa-heart-o tzicon"></i>
+                                            <h3>{{$portfolio->title}}</h3>
+                                        </div>
+                                        <div class="masonry-right pull-right">
+                                            <span>{{$portfolio->description}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                @endforeach
+                                {{-- <div id="post-332" class="post-332 portfolio type-portfolio status-publish has-post-thumbnail hentry element tzmansory">
+                                    <div class="tzmansory-image">
+                                        <img src="/image/{{$portfolio->image}}" class="attachment-full wp-post-image" alt="bk_video" />
                                     </div>
                                     <div class="masonry-meta">
                                         <div class="masonry-left pull-left">
@@ -217,43 +235,7 @@
                                             </span>
                                         </div>
                                     </div>
-                                </div>
-                                <div id="post-329" class="post-329 portfolio type-portfolio status-publish has-post-thumbnail hentry element tzmansory">
-                                    <div class="tzmansory-image">
-                                        <img src="http://placehold.it/1170x400" class="attachment-full wp-post-image" alt="defaultm" />
-                                    </div>
-                                    <div class="masonry-meta">
-                                        <div class="masonry-left pull-left">
-                                            <i class="fa fa-heart-o tzicon"></i>
-                                            <h3><a href="#">SED &#038; MILEY</a></h3>
-                                        </div>
-                                        <div class="masonry-right pull-right">
-                                            <span>February 9, 2015</span>
-                                            <span class="tztag">
-                                                 /
-                                                <a href="#" rel="tag">NewYork</a>,<a href="#" rel="tag">USA</a>                                             
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="post-324" class="post-324 portfolio type-portfolio status-publish has-post-thumbnail hentry element tzmansory">
-                                    <div class="tzmansory-image">
-                                        <img src="http://placehold.it/1170x400" class="attachment-full wp-post-image" alt="default1" />
-                                    </div>
-                                    <div class="masonry-meta">
-                                        <div class="masonry-left pull-left">
-                                            <i class="fa fa-heart-o tzicon"></i>
-                                            <h3><a href="#">JAMES &#038; MILEY</a></h3>
-                                        </div>
-                                        <div class="masonry-right pull-right">
-                                            <span>February 9, 2015</span>
-                                            <span class="tztag">
-                                                 /
-                                                <a href="#" rel="tag">NewYork</a>,<a href="#" rel="tag">USA</a>                                             
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div> --}}
                             </div><!--end class tzPortfolio-->
                             <div class="tzpagenavi">
                                 <div id="tz_append">

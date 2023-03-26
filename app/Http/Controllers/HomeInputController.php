@@ -132,7 +132,7 @@ class HomeInputController extends Controller
      */
     public function destroy(Slider $slider)
     {
-        $image_path = '/images';
+        $image_path = '/image';
 
         if (file_exists($image_path)) {
 

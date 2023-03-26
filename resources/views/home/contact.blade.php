@@ -163,7 +163,7 @@
                                 <nav class="pull-left">
                                     <ul id="menu-menu-right" class="tz-menu nav-collapse themeple_megemenu">
                                         <li id="menu-item-405" class="menu-item menu-item-type-taxonomy menu-item-object-tribe_events_cat">
-                                            <a href="shop">Paket</a>
+                                            <a href="paket">Paket</a>
                                         </li>
                                         <li id="menu-item-406" class="menu-item menu-item-type-post_type menu-item-object-page">
                                             <a href="contact">Contact Us</a>
